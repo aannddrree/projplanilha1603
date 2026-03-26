@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/usuario_planilha") // endpoint da SUA aplicação
 public class UsuarioService {
 
-    private final String URL = "http://localhost:8080/usuario";
+    private final String URL = "http://localhost:8081/usuario";
 
     private RestTemplate restTemplate = new RestTemplate();
 
