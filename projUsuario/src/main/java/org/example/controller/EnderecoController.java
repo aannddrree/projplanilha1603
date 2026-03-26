@@ -1,8 +1,6 @@
 package org.example.controller;
 
-import org.example.model.ComparacaoPlanilha;
 import org.example.model.Endereco;
-import org.example.service.ComparacaoPanilhaService;
 import org.example.service.EnderecoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
