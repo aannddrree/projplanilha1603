@@ -17,11 +17,11 @@ public class ScoreComparacaoController {
     @Autowired
     private ScoreComparacaoService scoreComparacaoService;
 
-    @PostMapping("/planilha")
+    @PostMapping("/scorecomparacao")
     public ScoreComparacao save(ScoreComparacao scoreComparacao){
         return scoreComparacaoService.save(scoreComparacao);
     }
-    @GetMapping("/planilha")
+    @GetMapping("/scorecomparacao")
     public List<ScoreComparacao> findAll(){
         return  scoreComparacaoService.findAll();
     }
