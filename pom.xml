@@ -11,6 +11,7 @@
     <modules>
         <module>projUsuario</module>
         <module>projPlanilha</module>
+        <module>projImportPlanilha</module>
     </modules>
 
     <properties>

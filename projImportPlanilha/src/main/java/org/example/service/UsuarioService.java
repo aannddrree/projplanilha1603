@@ -20,12 +20,15 @@ public class UsuarioService {
     private RestTemplate restTemplate = new RestTemplate();
 
     public List<Usuario> findAll() {
+
         ResponseEntity<Usuario[]> response =
                 restTemplate.getForEntity(URL, Usuario[].class);
+
         return Arrays.asList(response.getBody());
     }
 
     public Usuario save(@RequestBody Usuario usuario) {
+
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
 
